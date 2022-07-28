@@ -2,8 +2,8 @@ from itertools import cycle
 from random import randrange
 from tkinter import Canvas, Tk, messagebox, font
 
-canvas_width = 800
-canvas_height = 400
+canvas_width = 900
+canvas_height = 500
 
 root = Tk()
 root.title("Egg Catcher")
@@ -16,10 +16,10 @@ color_cycle = cycle(["light blue", "light green", "light pink", "light yellow", 
 egg_width = 45
 egg_height = 55
 egg_score = 10
-egg_speed = 500
-egg_interval = 4000
-difficulty = 0.95
-catcher_color = "blue"
+egg_speed = 700
+egg_interval = 4100
+difficulty = 0.97
+catcher_color = "red"
 catcher_width = 100
 catcher_height = 100
 catcher_startx = canvas_width / 2 - catcher_width / 2
@@ -104,3 +104,4 @@ root.after(1000, check_catch)
 root.mainloop()
 
 #Coded with 💙 by Mr. Unity Buddy
+#edited by @nnamonye at github.com
