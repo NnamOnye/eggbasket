@@ -6,7 +6,7 @@ canvas_width = 900
 canvas_height = 500
 
 root = Tk()
-root.title("Egg Catcher")
+root.title("Egg Basket")
 c = Canvas(root, width=canvas_width, height=canvas_height, background="deep sky blue")
 c.create_rectangle(-5, canvas_height-100, canvas_width+5, canvas_height+5, fill="sea green", width=0)
 c.create_oval(-80, -80, 120, 120, fill='orange', width=0)
@@ -104,4 +104,4 @@ root.after(1000, check_catch)
 root.mainloop()
 
 #Coded with 💙 by Mr. Unity Buddy
-#edited by @nnamonye at github.com
+#edited by @nnamonye at github.com 
